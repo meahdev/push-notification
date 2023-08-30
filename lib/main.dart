@@ -5,14 +5,17 @@ import 'package:flutter/material.dart';
 
 Future<void> backroundHandler(RemoteMessage message) async {
   print(" This is message from background");
-  print(message.notification!.title);
-  print(message.notification!.body);
+  print(message.notification?.title);
+  print(message.notification?.body);
+
 }
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await Firebase.initializeApp();
   FirebaseMessaging.onBackgroundMessage(backroundHandler);
+  String? token = await (FirebaseMessaging.instance.getToken());
+  print("Token: $token");
   runApp(const MyApp());
 }
 

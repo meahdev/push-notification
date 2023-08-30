@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "785992677976",
+    "project_id": "qaccess-25",
+    "storage_bucket": "qaccess-25.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:785992677976:android:4049ef2019164a5a8fa82d",
+        "android_client_info": {
+          "package_name": "com.qa.qaccess"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "785992677976-qd3hgc0f8ohhgie526add05nrscbavpj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.qa.qaccess",
+            "certificate_hash": "640b530c43d3fb2af1fbe78122eff74eebe5e699"
+          }
+        },
+        {
+          "client_id": "785992677976-kd88rhifspmh80uoo1hrg7ocd0bmt88f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCWIynTwigfjW3laMct0lzmhgHJT4TLnw4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "785992677976-kd88rhifspmh80uoo1hrg7ocd0bmt88f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
